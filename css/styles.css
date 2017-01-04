@@ -3,12 +3,22 @@ body {
   background: linear-gradient(55deg, #f2b3e1, #ea0e2f);
 }
 
-.left {
+img.left {
   float: left;
   border: 8px solid black;
 }
 
-.right {
+img.right {
   float: right;
   border: 8px solid black;
+}
+
+div img {
+  height: 350px;
+}
+
+div.divclass {
+  border: 8px solid black;
+  margin: inherit;
+  height: 365px;
 }
