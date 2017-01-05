@@ -3,43 +3,46 @@ body {
   background: linear-gradient(55deg, #f2b3e1, #ea0e2f);
 }
 
-img.left {
-  float: left;
-  border: 8px solid black;
-}
+@media screen and (min-width: 1350px) {
+  img.left {
+    float: left;
+    border: 8px solid black;
+  }
 
-img.right {
-  float: right;
-  border: 8px solid black;
-}
+  img.right {
+    float: right;
+    border: 8px solid black;
+  }
 
-div img {
-  height: 350px;
-}
+  div img {
+    height: 350px;
+  }
 
-div.divclass {
-  border: 8px solid black;
-  margin: inherit;
-  height: 365px;
-  padding: 15px;
-}
- .left .personality {
-   display: inline-block;
-   width: 30%;
-   height: 100%;
- }
+  div.divclass {
+    border: 8px solid black;
+    margin: inherit;
+    height: 365px;
+    padding: 15px;
+  }
+   .left .personality {
+     display: inline-block;
+     width: 30%;
+     height: 100%;
+   }
 
-.infobox {
-  display: inline-block;
-}
+  .infobox {
+    display: inline-block;
+    /*background-color: black;*/
+  }
 
-.right .personality {
-  display: inline-block;
-  width: 30%;
-  height: 100%;
-  text-align: right;
-}
+  .right .personality {
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    text-align: right;
+  }
 
-div.personality {
-  padding: 10px;
+  div.personality {
+    padding: 10px;
+  }
 }
