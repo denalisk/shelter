@@ -19,7 +19,6 @@ body {
   }
 
   div.divclass {
-    border: 8px solid black;
     margin: inherit;
     height: 365px;
     padding: 15px;
@@ -28,11 +27,14 @@ body {
      display: inline-block;
      width: 30%;
      height: 100%;
-   }
+      }
 
   .infobox {
     display: inline-block;
     /*background-color: black;*/
+    position: absolute;
+    margin-top: 15px;
+
   }
 
   .right .personality {
@@ -44,5 +46,6 @@ body {
 
   div.personality {
     padding: 10px;
+    /*background-color: black;*/
   }
 }
